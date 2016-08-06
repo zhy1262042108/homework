@@ -1,0 +1,734 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Microsoft Yahei";
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #666;
+  font-weight: 500;
+}
+
+#header {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  font-family: "Microsoft Yahei";
+  background: #168BD8 no-repeat 0 0;
+}
+
+#header .nav {
+  width: 1000px;
+  margin: 0px auto;
+  height: 60px;
+}
+
+#header .nav .logo {
+  display: block;
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+  background: url("../images/header_z_94c6de7.png") no-repeat -2px 0px;
+  float: left;
+}
+
+#header .nav .left {
+  float: left;
+}
+
+#header .nav .left .list {
+  margin-left: 60px;
+}
+
+#header .nav .left .list .item {
+  float: left;
+}
+
+#header .nav .left .list .item .link {
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  font-size: 15px;
+  height: 28px;
+  padding-top: 32px;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+}
+
+#header .nav .left .list .item .link:hover {
+  color: #67CBFF;
+}
+
+#header .nav .right {
+  float: right;
+  margin-top: 25px;
+}
+
+#header .nav .right a {
+  color: #FFF;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+#header .nav .right .nav-app i {
+  display: inline-block;
+  width: 32px;
+  height: 25px;
+  background: url("../images/header_z_94c6de7.png") no-repeat -88px -154px;
+}
+
+#main #section-0 {
+  background: #3FB0EE url(../images/bg-0_c25cb21.jpg) no-repeat center top;
+}
+
+#main #section-0 .follow-head {
+  height: 126px;
+  background: #0D71CD url("../images/bg-1_e29bcfa.jpg") repeat 0 0;
+}
+
+#main #section-1 {
+  background: #3FB0EE url(../images/bg-1_e29bcfa.jpg) no-repeat center top;
+}
+
+#main #section-1 .square-1 {
+  background: #35B568;
+  left: 70px;
+  width: 44px;
+  height: 44px;
+}
+
+#main #section-1 .square-2 {
+  background: #4AC179;
+  left: 158px;
+}
+
+#main #section-1 .square-3 {
+  background: #8AE75A;
+  left: 246px;
+  width: 44px;
+  height: 44px;
+}
+
+#main #section-1 .square-4 {
+  background: #8AE75A;
+  right: 328px;
+  width: 44px;
+  height: 44px;
+}
+
+#main #section-1 .square-5 {
+  background: #4AC179;
+  right: 240px;
+  width: 44px;
+  height: 44px;
+}
+
+#main #section-1 h3 {
+  background: transparent url("../images/h_lingxian_221f2d8.png") no-repeat 0 0;
+  animation: zhuan 2s infinite;
+}
+
+#main #section-2 {
+  background: #3FB0EE url(../images/bg-2_867b7b4.jpg) no-repeat center top;
+}
+
+#main #section-2 .square-1 {
+  background: #33BB9A;
+  left: 70px;
+  top: 60px;
+}
+
+#main #section-2 .square-2 {
+  background: #29A2B8;
+  left: -18px;
+  top: 148px;
+}
+
+#main #section-2 .square-3 {
+  background: #60CF6E;
+  left: 158px;
+  top: 148px;
+}
+
+#main #section-2 .square-4 {
+  background: #8AE75A url("../images/square_c776382.jpg") repeat 0 0;
+  left: 70px;
+  top: 236px;
+  width: 176px;
+  height: 176px;
+}
+
+#main #section-2 .square-5 {
+  background: #33BB9A;
+  left: 246px;
+  top: 236px;
+}
+
+#main #section-2 h3 {
+  background: transparent url("../images/h_quanmian_8f813d2.png") no-repeat 0 0;
+  animation: zhuan 2s infinite;
+}
+
+#main #section-2 .follow-head {
+  height: 138px;
+  background: transparent url("../images/bg-3-head_b8a3f7f.png") repeat 0 0;
+}
+
+#main #section-3 {
+  background: #3FB0EE url(../images/bg-3_153a003.jpg) no-repeat center top;
+}
+
+#main #section-3 .obj-bubble {
+  left: -36px;
+  top: -56px;
+  width: 275px;
+  height: 245px;
+  background: transparent url("../images/bubble_3b0f897.png") repeat 0 0;
+}
+
+#main #section-3 h3 {
+  background: transparent url("../images/h_zhuanye_256a94d.png") no-repeat 0 0;
+  animation: zhuan 2s infinite;
+}
+
+#main .section .top {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+#main .section .cloud-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1000px;
+  background: transparent url("../images/cloud_1_1d4924b.png");
+}
+
+#main .section .cloud-2 {
+  position: absolute;
+  top: -200px;
+  left: 0px;
+  width: 100%;
+  height: 400px;
+  background: transparent url("../images/cloud_2_a186193.png");
+}
+
+#main .section .cloud-3 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 400px;
+  background: transparent url("../images/cloud_3_5ee0340.png");
+}
+
+#main .section .bottom {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+
+#main .section .follow-head {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#main .section .follow-head .center {
+  width: 1000px;
+  position: relative;
+  margin: 0px auto;
+}
+
+#main .section .follow-head .center .hill-1 {
+  width: 265px;
+  height: 175px;
+  background: transparent url("../images/hill_1_0d79217.png") repeat 0 0;
+  left: -182px;
+  top: -50px;
+}
+
+#main .section .follow-head .center .hill-2 {
+  width: 63px;
+  height: 78px;
+  background: transparent url("../images/hill_2_540422f.png") repeat 0 0;
+  right: 288px;
+  top: -13px;
+}
+
+#main .section .follow-head .center .hill-3 {
+  width: 260px;
+  height: 175px;
+  background: transparent url("../images/hill_3_ace39fb.png") repeat 0 0;
+  right: -129px;
+  top: -47px;
+}
+
+#main .section .follow-head .copyright {
+  font-size: 12px;
+  color: #FFF;
+  text-align: center;
+  line-height: 80px;
+}
+
+#main .section .follow-head .copyright a {
+  color: #FFF;
+}
+
+#main .section .obj, #main .section .title-area {
+  position: absolute;
+  transition: all 0.5s ease-out 0.3s;
+}
+
+#main .section .obj-brain {
+  width: 444px;
+  height: 427px;
+  background: transparent url("../images/brain_36a156f.png") no-repeat 0 0;
+  top: -200px;
+  right: -14px;
+  opacity: 0;
+}
+
+#main .section .obj-launch {
+  width: 501px;
+  height: 158px;
+  background: transparent url("../images/launch_deea86c.png");
+  left: 0px;
+  top: -210px;
+}
+
+#main .section .obj-flight {
+  width: 119px;
+  height: 78px;
+  background: transparent url("../images/flight_ade8ee2.png");
+  left: 295px;
+  top: -236px;
+  animation: fei 3s infinite;
+}
+
+#main .section .obj-allside {
+  width: 444px;
+  height: 330px;
+  background: transparent url("../images/allside_e8abd12.png") no-repeat 0 0;
+  top: -200px;
+  right: 2px;
+  opacity: 1;
+}
+
+#main .section .obj-stat {
+  top: -160px;
+  right: 50px;
+  width: 603px;
+  height: 361px;
+  background: transparent url("../images/stat_8934528.png") no-repeat 0 0;
+}
+
+#main .section .obj-ship {
+  width: 242px;
+  height: 228px;
+  background: transparent url("../images/ship_1ad6734.png") repeat 0 0;
+  left: 100px;
+  top: -191px;
+}
+
+#main .section .title-area {
+  position: absolute;
+  transition: all 0.5s ease-out 0.3s;
+  top: -100px;
+  left: -30px;
+  opacity: 1;
+}
+
+#main .section .title-area .title {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #FFF;
+  width: 500px;
+}
+
+#main .section .title-area .title h3 {
+  width: 66px;
+  height: 126px;
+  float: left;
+}
+
+#main .section .title-area .title .text {
+  margin-left: 86px;
+  margin-top: 8px;
+}
+
+#main .section .title-area .title .text h4 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 48px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+#main .section .title-area .title .text p {
+  font-size: 19px;
+  line-height: 32px;
+  opacity: 0.8;
+  color: #fff;
+}
+
+#main .section .center {
+  width: 1000px;
+  position: relative;
+  margin: 0px auto;
+}
+
+#main .section .center .login {
+  height: 300px;
+  width: 340px;
+  border-radius: 5px;
+  background: #4EBFFC none repeat 0 0;
+  position: absolute;
+  right: 0px;
+  top: -198px;
+}
+
+#main .section .center .login form {
+  position: relative;
+  border-radius: 3px;
+  padding-top: 26px;
+}
+
+#main .section .center .login form .login-info {
+  padding: 0px 20px;
+}
+
+#main .section .center .login form .login-info .account {
+  box-sizing: border-box;
+  height: 40px;
+  background: #FFF none repeat 0 0;
+}
+
+#main .section .center .login form .login-info .account span {
+  background: transparent url("../images/icons.png") no-repeat -124px -12px;
+}
+
+#main .section .center .login form .login-info .account input {
+  width: 252px;
+}
+
+#main .section .center .login form .login-info span {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 12px 3px 0px 10px;
+}
+
+#main .section .center .login form .login-info input {
+  border: 0px none;
+  outline: medium none;
+  padding: 9px;
+  height: 20px;
+  box-shadow: none;
+  float: left;
+  font-size: 14px;
+}
+
+#main .section .center .login form .login-info .error {
+  height: 20px;
+  line-height: 20px;
+  vertical-align: top;
+  color: #F28281;
+  visibility: hidden;
+  font-size: 13px;
+  max-width: 270px;
+  overflow: hidden;
+  display: block;
+  text-align: left;
+}
+
+#main .section .center .login form .login-info .password {
+  width: 299px;
+  border: 0px;
+  box-sizing: border-box;
+  height: 40px;
+  background: #FFF;
+}
+
+#main .section .center .login form .login-info .password span {
+  background: transparent url("../images/icons.png") no-repeat -140px -12px;
+}
+
+#main .section .center .login form .login-info .password input {
+  width: 252px;
+}
+
+#main .section .center .login form .login-info .yzm {
+  height: 39px;
+}
+
+#main .section .center .login form .login-info .yzm input {
+  width: 122px;
+}
+
+#main .section .center .login form .login-info .yzm img {
+  margin-left: 10px;
+  width: 99px;
+  height: 39px;
+  opacity: 0.6;
+  float: left;
+}
+
+#main .section .center .login form .login-info .yzm a {
+  margin: 10px 0px 0px 10px;
+  font-size: 12px;
+  color: #FFF;
+  float: left;
+  cursor: pointer;
+}
+
+#main .section .center .login form .login-action {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 0px 20px;
+}
+
+#main .section .center .login form .login-action .submit {
+  display: block;
+  margin-top: 12px;
+  padding: 0px 10px;
+  font-size: 18px;
+  line-height: 35px;
+  border: 0px;
+  background: #FFD850;
+  color: #5C4C12;
+  border-radius: 2px;
+  width: 299px;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+#main .section .center .login form .login-action .other {
+  height: 19px;
+  margin: 12px 0px 8px;
+  font-size: 12px;
+  color: #9DBCDB;
+}
+
+#main .section .center .login form .login-action .other .left {
+  float: left;
+}
+
+#main .section .center .login form .login-action .other .left span {
+  display: inline-block;
+  width: 15px;
+  height: 17px;
+  background: transparent url("../images/icons.png") no-repeat -203px -75px;
+  margin: 2px 4px 0px 0px;
+  vertical-align: top;
+}
+
+#main .section .center .login form .login-action .other .left a {
+  color: #FFF;
+}
+
+#main .section .center .login form .login-action .other .right {
+  float: right;
+}
+
+#main .section .center .login form .login-action .other .right a {
+  color: #FFF;
+}
+
+#main .section .bottom .center .btn-next {
+  display: block;
+  width: 30px;
+  height: 26px;
+  background: transparent url("../images/arrow_aad9b25.png") repeat 0 0;
+  position: absolute;
+  left: 485px;
+  bottom: 42px;
+  animation: fu 1s infinite;
+}
+
+#main .section .square {
+  position: absolute;
+  display: block;
+  width: 88px;
+  height: 88px;
+  bottom: 0;
+}
+
+#main .active .cloud-1 {
+  animation: move 100s linear infinite;
+}
+
+#main .active .cloud-2 {
+  animation: move 280s linear infinite;
+}
+
+#main .active .cloud-3 {
+  animation: move 600s linear infinite;
+}
+
+#main .active .obj-brain {
+  opacity: 1;
+  right: 26px;
+}
+
+#main .active .obj-allside {
+  opacity: 1;
+  right: 32px;
+}
+
+#main .active .obj-stat {
+  opacity: 1;
+  right: 80px;
+}
+
+#main .active .obj-ship {
+  opacity: 1;
+  left: 126px;
+}
+
+#main .active .title-area {
+  left: 20px;
+}
+
+#fp-nav {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  opacity: 0.5;
+  color: #000;
+  margin-top: -43.5px;
+}
+
+#fp-nav ul li {
+  display: block;
+  width: 14px;
+  height: 13px;
+  margin: 7px;
+  position: relative;
+}
+
+#fp-nav ul li a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+#fp-nav ul li a span {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+  margin: 0;
+  background: transparent;
+  transform: none;
+  transition: none;
+  translate: none;
+}
+
+#fp-nav ul li a.active span {
+  border: 1px solid #000;
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  background: #333;
+}
+
+#fp-nav ul li:hover a.active span {
+  border: 1px solid #000;
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  background: #333;
+}
+
+#fp-nav ul li:hover a span {
+  border: 1px solid #000;
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+#fp-nav.R {
+  right: 17px;
+}
+
+@keyframes fu {
+  0% {
+    opacity: 1;
+    transform-origin: center center;
+    transform: translate(-50%, 0);
+    bottom: 42px;
+  }
+  50% {
+    opacity: 0.5;
+    transform-origin: center center;
+    transform: translate(-50%, 0);
+    bottom: 36px;
+  }
+  100% {
+    opacity: 1;
+    transform-origin: center center;
+    transform: translate(-50%, 0);
+    bottom: 42px;
+  }
+}
+
+@keyframes zhuan {
+  0% {
+    transform: rotateY(0deg);
+  }
+  40% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes fei {
+  0% {
+    top: -220px;
+  }
+  40% {
+    top: -230px;
+  }
+  100% {
+    top: -220px;
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 2000px 0;
+  }
+  50% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2000px 0;
+  }
+}
